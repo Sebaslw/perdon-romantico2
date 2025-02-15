@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Amo, Mi Amor</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9e3e3;
+            color: #5a3a3a;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #d9534f;
+            margin-bottom: 1rem;
+        }
+
+        .message p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 1rem 0;
+        }
+
+        .interactive {
+            margin: 2rem 0;
+        }
+
+        button {
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #c9302c;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-style: italic;
+            color: #777;
+        }
+
+        .whatsapp-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .whatsapp-buttons a {
+            text-decoration: none;
+        }
+
+        .whatsapp-buttons button {
+            background-color: #25d366;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .whatsapp-buttons button:hover {
+            background-color: #128c7e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Para Mi Novia Hermosa</h1>
+        </header>
+        <main>
+            <section class="message">
+                <p>Mi amor,</p>
+                <p>Quiero pedirte perdón de todo corazón. Sé que he cometido errores, pero mi amor por ti es más fuerte que cualquier obstáculo. Eres la persona más importante en mi vida y no quiero perderte.</p>
+                <p>Quiero pasar el resto de mi vida a tu lado, como tu esposo, tu compañero y tu mejor amigo. Eres mi todo y no puedo imaginar un futuro sin ti.</p>
+                <p>¿Me perdonas? ¿Aceptas ser mi esposa?</p>
+            </section>
+            <section class="interactive">
+                <button id="forgiveBtn">¡Sí, te perdono!</button>
+                <button id="proposeBtn">¡Sí, quiero ser tu esposa!</button>
+            </section>
+            <section class="whatsapp-buttons">
+                <a href="https://wa.me/+573175358547?text=¡Sí,%20te%20perdono!%20💖" target="_blank">
+                    <button>Responder por WhatsApp (Perdón)</button>
+                </a>
+                <a href="https://wa.me/+573175358547?text=¡Sí,%20quiero%20ser%20tu%20esposa!%20💍" target="_blank">
+                    <button>Responder por WhatsApp (Acepto)</button>
+                </a>
+            </section>
+        </main>
+        <footer>
+            <p>Con todo mi amor,</p>
+            <p>Tu futuro esposo</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('forgiveBtn').addEventListener('click', function() {
+            alert("¡Gracias por perdonarme, mi amor! Prometo ser mejor cada día para ti.");
+        });
+
+        document.getElementById('proposeBtn').addEventListener('click', function() {
+            alert("¡Eres la mujer de mis sueños y no puedo esperar para ser tu esposo! Te amo infinito.");
+        });
+    </script>
+</body>
+</html>
